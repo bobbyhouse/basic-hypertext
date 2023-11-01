@@ -1,4 +1,4 @@
-import { isWellFormedHttpHttp } from '../src/isWellFormedHttp';
+import { isWellFormedHttp } from '../src/isWellFormedHttp';
 
 describe('Wellformed HTTP/s URLs', () => {
 	const expected = true;
