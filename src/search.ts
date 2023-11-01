@@ -7,8 +7,8 @@ function searchMap(strs: string[]): boolean[] | [] {
 	));
 }
 
-function searchReduce(parts: boolean[] | []): number[] | [] {
-	return parts.reduce((acc, curr, index) => (
+function searchReduce(parts: boolean[]): number[] {
+	return parts.reduce<number[]>((acc, curr, index) => (
 		curr ? acc.concat(index) : acc
 	), []);
 };
