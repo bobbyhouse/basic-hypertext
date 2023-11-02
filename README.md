@@ -26,7 +26,7 @@ For example:
 This text http://www.example.com
 ```
 
-Is transformed into
+Is transformed into:
 ```html
 This text <a href="http://www.example.com">http://www.example.com</a>
 ```
