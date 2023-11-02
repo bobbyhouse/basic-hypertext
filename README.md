@@ -36,5 +36,3 @@ Using npm:
 ```shell
 $ npm i basic-hypertext
 ```
-
-## What it does
