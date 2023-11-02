@@ -19,10 +19,6 @@ const text = 'Text http://www.example.com';
 const transformed = create(text);
 ```
 
-## License
-
-basic-hypertext is released under the [MIT license](https://raw.githubusercontent.com/bobbyhouse/basic-hypertext/main/LICENSE).
-
 ## Testing
 
 ```shell
@@ -36,3 +32,7 @@ Using npm:
 ```shell
 $ npm i basic-hypertext
 ```
+
+## License
+
+basic-hypertext is released under the [MIT license](https://raw.githubusercontent.com/bobbyhouse/basic-hypertext/main/LICENSE).
