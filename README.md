@@ -1,5 +1,7 @@
 # basic-hypertext
 
+## Description
+
 basic-hypertext is a small and simple library that can take a body of text and replace the valid URLs with hypertext formatted URLs.
 
 For example:
