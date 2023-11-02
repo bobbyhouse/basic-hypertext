@@ -30,4 +30,20 @@ describe('Single line text', () => {
         const expected = 'Text <a href="https://www.example.com">https://www.example.com</a> <a href="https://www.example.com">https://www.example.com</a>';  
         expect(create(text)).toStrictEqual(expected);
     });
+
+    it('Multi-line text', () => {
+        const text = `
+            Text\n
+            https://www.example.com\n
+            Text https://www.example.com\n
+            https://www.example.com Text\n
+            text https://www.example.com https://www.example.com text`;
+        const expected = `
+            Text\n
+            <a href="https://www.example.com">https://www.example.com</a>\n
+            Text <a href="https://www.example.com">https://www.example.com</a>\n
+            <a href="https://www.example.com">https://www.example.com</a> Text\n
+            text <a href="https://www.example.com">https://www.example.com</a> <a href="https://www.example.com">https://www.example.com</a> text`;
+        expect(create(expected)).toStrictEqual(expected);
+    });
 });
