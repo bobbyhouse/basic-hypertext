@@ -22,18 +22,17 @@ const text = 'Text http://www.example.com';
 const transformed = create(text);
 ```
 
+## Installation
+
+```shell
+$ npm i basic-hypertext
+```
+
 ## Testing
 
 ```shell
 $ npm i
 $ npm test
-```
-
-## Installation
-
-Using npm:
-```shell
-$ npm i basic-hypertext
 ```
 
 ## License
