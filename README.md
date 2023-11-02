@@ -32,7 +32,7 @@ This text <a href="http://www.example.com">http://www.example.com</a>
 ```
 
 ```javascript
-import { create } from basic-hypertext;
+import { create } from 'basic-hypertext';
 const text = 'Text http://www.example.com';
 const transformed = create(text);
 ```
