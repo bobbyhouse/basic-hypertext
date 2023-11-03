@@ -1,6 +1,6 @@
 import { search } from './search';
 
-export function create(text) {
+export function create(text: string) {
 	let arr = text.split(' ');
 	const indexes = search(arr);
 	indexes.forEach(index => {
