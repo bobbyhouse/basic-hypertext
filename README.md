@@ -32,11 +32,17 @@ Example code can be found in `./example`
 $ npm i basic-hypertext
 ```
 
-## Testing
+## Test
 
 ```shell
 $ npm i
 $ npm test
+```
+
+## Build
+
+```shell
+$ npm run build
 ```
 
 ## License
