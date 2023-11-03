@@ -22,6 +22,10 @@ const text = 'Text http://www.example.com';
 const transformed = create(text);
 ```
 
+## Example
+
+Example code can be found in `./example`
+
 ## Installation
 
 ```shell
